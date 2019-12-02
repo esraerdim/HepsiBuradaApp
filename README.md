@@ -1,2 +1,2 @@
 # HepsiBuradaApp
-C:\Users\esra\Desktop\HepsiBuradaApp\hepsiburada.com\bin\Debug\hepsiburada.com.exe ile
+\Desktop\HepsiBuradaApp\hepsiburada.com\bin\Debug\hepsiburada.com.exe ile uygulama calistirilir.
