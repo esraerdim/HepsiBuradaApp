@@ -1,0 +1,138 @@
+﻿<wpf:FormsApplicationPage x:Class="hepsiburada.com.Kategoriler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:Xamarin.Forms.Platform.WPF;assembly=Xamarin.Forms.Platform.WPF"
+        xmlns:local="clr-namespace:hepsiburada.com"
+        mc:Ignorable="d" Height="581.554" Width="353.131" ShowInTaskbar="False" WindowStyle="None" Background="White" ResizeMode="NoResize">
+
+
+    <Grid Margin="0,0,503.6,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="94*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Kategoriler" HorizontalAlignment="Left" Margin="12,7,-160,0" VerticalAlignment="Top" Width="148" FontFamily="Segoe UI Black" FontSize="18"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,46,-86,0" VerticalAlignment="Top" Width="74" Source="resimler/asus-x505bp-br025t-amd-dual-core-a9-3ghz-4gb-500gb-r5-m420-156__1002882799212070.jpg" RenderTransformOrigin="0.576,0.356">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="resimler/asus-x505bp-br025t-amd-dual-core-a9-3ghz-4gb-500gb-r5-m420-156__1002882799212070.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Content="Elektronik" HorizontalAlignment="Left" Margin="115,56,-215,0" VerticalAlignment="Top" Width="100" FontFamily="Yu Gothic UI Light" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,101,-86,0" VerticalAlignment="Top" Width="74" Source="resimler/ayakkabi-canta-modelleri-10.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="resimler/ayakkabi-canta-modelleri-10.jpg" Stretch="UniformToFill"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Content="Hepsimoda" HorizontalAlignment="Left" Margin="115,101,-215,0" VerticalAlignment="Top" Width="100" FontFamily="Yu Gothic Light" FontSize="14" RenderTransformOrigin="0.596,0.825"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="51,182,-51,0" VerticalAlignment="Top" Width="0"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,156,-86,0" VerticalAlignment="Top" Width="74" Source="resimler/londa_koltuk_yen_3_10__1.jpg" RenderTransformOrigin="0.515,1.84">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="resimler/londa_koltuk_yen_3_10__1.jpg" Stretch="UniformToFill"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Content="Ev,Yaşam,Kırtasiye,Ofis" HorizontalAlignment="Left" Margin="91,156,-243,0" VerticalAlignment="Top" Width="152" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,211,-86,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.515,1.84" Source="resimler/matkap.jpg">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="UniformToFill" ImageSource="resimler/matkap.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Content="Oto,Bahçe,Yapı,Market" HorizontalAlignment="Left" Margin="98,211,-243,0" VerticalAlignment="Top" Width="145" FontFamily="Yu Gothic UI Light" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,266,-86,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.515,1.84" Source="resimler/bh3025-santana-kahve-copy-768x768.jpg">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="UniformToFill" ImageSource="resimler/bh3025-santana-kahve-copy-768x768.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,321,-86,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.515,1.84" Source="resimler/3138522075879-1-pdpxl.jpg">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="UniformToFill" ImageSource="resimler/3138522075879-1-pdpxl.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,376,-86,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.515,1.84" Source="resimler/Versace-Eros.jpg">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="UniformToFill" ImageSource="resimler/Versace-Eros.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+
+        <Label Content="Anne,Bebek,Oyuncak" HorizontalAlignment="Left" Margin="101,266,-253,0" VerticalAlignment="Top" Width="152" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label Content="Spor Outdoor" HorizontalAlignment="Left" Margin="101,321,-201,0" VerticalAlignment="Top" Width="100" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label Content="Kozmetik Kişisel bakım" HorizontalAlignment="Left" Margin="98,388,-250,101.21" Width="152" FontFamily="Yu Gothic Light" FontSize="14" RenderTransformOrigin="0.51,1.173"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="12,431,-86,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.515,1.84" Source="resimler/e2542135-f22a-4c52-aa23-215b2c273cf3.jpg">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="UniformToFill" ImageSource="resimler/e2542135-f22a-4c52-aa23-215b2c273cf3.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Content="Süpermarket Petshop" HorizontalAlignment="Left" Margin="101,446,-243,0" VerticalAlignment="Top" Width="142" FontFamily="Yu Gothic UI Light" FontSize="14"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,56,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,101,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,156,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,211,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,266,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,321,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,388,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="324,446,-344,0" VerticalAlignment="Top" Width="20" Opacity="0.47" RenderTransformOrigin="0.769,2.503">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="7,518,-56,0" VerticalAlignment="Top" Width="49" Height="31" Grid.RowSpan="2" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/home.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="90,518,-148,0" VerticalAlignment="Top" Width="58" Height="31" RenderTransformOrigin="1.038,0.631" Click="Button_Click" Grid.RowSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/4-squares.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="183,518,-233,0" VerticalAlignment="Top" Width="50" Height="31" RenderTransformOrigin="2.819,0.451" Grid.RowSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/shopping-cart (1).png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="267,518,-316,0" VerticalAlignment="Top" Width="49" Height="31" RenderTransformOrigin="2.819,0.451" Grid.RowSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/packing.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Keşfet" HorizontalAlignment="Left" Margin="7,22.6,-56,0" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.305,0.466" FontFamily="Yu Gothic UI Light" Grid.Row="1"/>
+        <Label Content="Kategoriler" HorizontalAlignment="Left" Margin="81,22.6,-148,0" VerticalAlignment="Top" Width="67" RenderTransformOrigin="0.647,0.433" FontFamily="Yu Gothic UI Light" Grid.Row="1"/>
+        <Label Content="Sepetim" HorizontalAlignment="Left" Margin="183,22.6,-248,0" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.695,0.199" FontFamily="Yu Gothic UI Light" Grid.Row="1"/>
+        <Label Content="Siparişlerim" HorizontalAlignment="Left" Margin="253,22.6,-353,0" VerticalAlignment="Top" Width="100" FontFamily="Yu Gothic UI Light" Grid.Row="1"/>
+        <Button Content="Kampanyalar" HorizontalAlignment="Left" Margin="12,486,-334,0" VerticalAlignment="Top" Width="322" Background="White" RenderTransformOrigin="0.527,-0.449"/>
+
+    </Grid>
+
+
+
+</wpf:FormsApplicationPage>

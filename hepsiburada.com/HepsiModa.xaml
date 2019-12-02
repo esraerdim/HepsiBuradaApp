@@ -1,0 +1,17 @@
+﻿<wpf:FormsApplicationPage x:Class="hepsiburada.com.HepsiModa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:Xamarin.Forms.Platform.WPF;assembly=Xamarin.Forms.Platform.WPF" 
+        xmlns:local="clr-namespace:hepsiburada.com"
+        mc:Ignorable="d"
+        Title="HepsiModa" Height="581.554" Width="353.131" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="hikayeler/IMG_4865.PNG"/>
+        </Grid.Background>
+        <Button Content="" HorizontalAlignment="Left" Margin="268,10,0,0" VerticalAlignment="Top" Width="68" Height="53" Opacity="0.01" Click="Button_Click"/>
+
+    </Grid>
+</wpf:FormsApplicationPage>

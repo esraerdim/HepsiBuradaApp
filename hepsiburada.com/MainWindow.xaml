@@ -1,0 +1,215 @@
+﻿<wpf:FormsApplicationPage x:Class="hepsiburada.com.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:Xamarin.Forms.Platform.WPF;assembly=Xamarin.Forms.Platform.WPF"
+        xmlns:local="clr-namespace:hepsiburada.com"
+        mc:Ignorable="d" Height="581.554" Width="353.131" WindowStartupLocation="Manual" ResizeMode="NoResize" Visibility="Visible" WindowStyle="None" FontWeight="Bold" Foreground="#FF333333">
+
+    <ScrollViewer CanContentScroll="True" Margin="0,0,-0.2,9.6">
+        <Grid Background="#FFF4F4F4" Height="2113" Width="353">
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1087*"/>
+                <RowDefinition Height="994*"/>
+                <RowDefinition Height="31*"/>
+            </Grid.RowDefinitions>
+            <Image HorizontalAlignment="Left" Height="26" Margin="114,1,0,0" VerticalAlignment="Top" Width="130" Source="resimler/hepsiburada.com.png" RenderTransformOrigin="0.715,0.063">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="resimler/hepsiburada.com.png"/>
+                </Image.OpacityMask>
+            </Image>
+            <Button Content="" HorizontalAlignment="Left" Margin="300,1,0,0" VerticalAlignment="Top" Width="37" Height="26" Click="Button_Click" RenderTransformOrigin="-0.141,0.5">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/user.png"/>
+                </Button.Background>
+            </Button>
+
+
+            <Ellipse HorizontalAlignment="Left" Height="85" Margin="18,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="66" RenderTransformOrigin="-0.002,0.396">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="resimler/Bistro_Sets.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse HorizontalAlignment="Left" Height="85" Margin="101,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="66" RenderTransformOrigin="-0.002,0.396">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="resimler/hanger.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse HorizontalAlignment="Left" Height="85" Margin="178,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="66" RenderTransformOrigin="-0.002,0.396">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="resimler/woman-shopping-street-bags-shop-stock-today-180302-tease_192a54ebcfb697d311d3bdfc82ad1151.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse HorizontalAlignment="Left" Height="85" Margin="261,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="66" RenderTransformOrigin="-0.002,0.396">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="resimler/depositphotos_6573334-stock-photo-businesswoman-showing.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Label Content="Evini Yenile" HorizontalAlignment="Left" Margin="8,228,0,0" VerticalAlignment="Top" Width="76" FontFamily="Yu Gothic UI Light" FontSize="14" Height="29"/>
+            <Label Content="Hepsimoda" HorizontalAlignment="Left" Margin="92,228,0,0" VerticalAlignment="Top" Width="76" FontFamily="Yu Gothic UI Light" FontSize="14" Height="29"/>
+            <Label Content="Kampanya" HorizontalAlignment="Left" Margin="178,228,0,0" VerticalAlignment="Top" Width="76" FontFamily="Yu Gothic UI Light" FontSize="14" RenderTransformOrigin="1.486,0.799" Height="29"/>
+            <Label Content="Öneri" HorizontalAlignment="Left" Margin="261,228,0,0" VerticalAlignment="Top" Width="76" FontFamily="Yu Gothic UI Light" FontSize="14" RenderTransformOrigin="1.486,0.799" Height="29"/>
+            <Label Content="Hepsiburada Hikayelerini Keşfet!" HorizontalAlignment="Left" Margin="8,98,0,0" VerticalAlignment="Top" Width="319" Foreground="#FF333333" Height="26"/>
+
+            <ListBox HorizontalAlignment="Left" Height="100" Margin="159,358,0,0" VerticalAlignment="Top" Width="0"/>
+            <Image HorizontalAlignment="Left" Height="81" Margin="337,349,0,0" VerticalAlignment="Top" Width="5"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="203,379,0,0" VerticalAlignment="Top" Width="0" Height="19"/>
+            <Button Content="Size Özel Önerilenler" HorizontalAlignment="Left" Margin="8,506,0,0" VerticalAlignment="Top" Width="119" FontFamily="Nirmala UI" FontSize="10" Background="#FFF4F4F4" Foreground="#FF333337" BorderBrush="#FFF4F4F4" Click="Button_Click_4" Height="18"/>
+            <Button Content="Telefon" HorizontalAlignment="Left" Margin="132,506,0,0" VerticalAlignment="Top" Width="106" BorderBrush="#FFF4F4F4" Background="#FFF4F4F4" FontFamily="Nirmala UI" FontSize="10" Height="18" Click="Button_Click_13"/>
+            <Button Content="Televizyon" HorizontalAlignment="Left" Margin="243,506,0,0" VerticalAlignment="Top" Width="99" BorderBrush="#FFF4F4F4" Background="#FFF4F4F4" FontSize="10" FontFamily="Nirmala UI" RenderTransformOrigin="0.558,-0.102" Height="18" Click="Button_Click_14"/>
+            <Label Content="                       Keşfet" HorizontalAlignment="Left" Margin="0,449,0,0" VerticalAlignment="Top" Height="43" Width="336" Background="#FFF2F1F3" FontFamily="Tahoma" FontSize="20" Foreground="#FFED7C55"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="110,176,0,0" VerticalAlignment="Top" Width="49" Opacity="0.01" RenderTransformOrigin="1.653,0.719" Height="19"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="114,176,0,0" VerticalAlignment="Top" Width="49" Opacity="0.01" RenderTransformOrigin="1.653,0.719" Click="Button_Click_9" Height="19"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="189,176,0,0" VerticalAlignment="Top" Width="49" Opacity="0.01" Height="19" Click="Button_Click_11"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="264,176,0,0" VerticalAlignment="Top" Width="49" Opacity="0.01" Height="19" Click="Button_Click_12"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="9,841.8,0,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="1.636,0.553" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/home.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="87,843.8,0,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="1.636,0.553" Click="Button_Click_5" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/4-squares.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="166,844.8,0,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="1.636,0.553" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/shopping-cart (1).png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="243,844.8,0,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="1.636,0.553" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/packing.png"/>
+                </Button.Background>
+            </Button>
+            <Label Content="  Keşfet            Kategoriler        Sepetim      Siparişlerim      " HorizontalAlignment="Left" Margin="9,885.8,0,0" VerticalAlignment="Top" Width="314" RenderTransformOrigin="0.51,2.727" Grid.Row="1" Height="25"/>
+
+            <Button Content="" HorizontalAlignment="Left" Margin="178,549,0,0" VerticalAlignment="Top" Width="149" Height="126" Click="Button_Click_15">
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <ImageBrush ImageSource="sizeönerilenler/persil2.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="18,680,0,0" VerticalAlignment="Top" Width="150" Height="111" BorderBrush="White">
+                <Button.Background>
+                    <ImageBrush ImageSource="sizeönerilenler/persil3.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="178,680,0,0" VerticalAlignment="Top" Width="150" Height="111" BorderBrush="#FFF1F2F7">
+                <Button.Background>
+                    <ImageBrush ImageSource="sizeönerilenler/persil4.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="10,807,0,0" VerticalAlignment="Top" Width="326" Height="130">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/balkon1.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="18,549,0,0" VerticalAlignment="Top" Width="150" Height="126" Foreground="#FFF2F1F3" BorderBrush="White" Click="Button_Click_16">
+                <Button.Background>
+                    <ImageBrush ImageSource="sizeönerilenler/persil1.png"/>
+                </Button.Background>
+            </Button>
+            <Label Content="               İlginizi Çekebilir" HorizontalAlignment="Left" Margin="0,294.8,0,0" VerticalAlignment="Top" Height="43" Width="336" Background="#FFF2F1F3" FontFamily="Yu Gothic UI" FontSize="20" Foreground="#FF1C1C1C" FontWeight="Normal" Grid.Row="1"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="4,942,0,0" VerticalAlignment="Top" Width="155" Height="146" Grid.RowSpan="2">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/bahartemiz.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="164,942,0,0" VerticalAlignment="Top" Width="155" Height="146" Grid.RowSpan="2">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/gurme.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="4,1087,0,0" VerticalAlignment="Top" Width="155" Height="146" Grid.RowSpan="2">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/game.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="164,1087,0,0" VerticalAlignment="Top" Width="155" Height="146" Grid.RowSpan="2">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/piknik.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="4,143.8,0,0" VerticalAlignment="Top" Width="155" Height="146" RenderTransformOrigin="0.314,0.521" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/tadilat.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="164,143.8,0,0" VerticalAlignment="Top" Width="155" Height="146" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/saglıklıyasam.png"/>
+                </Button.Background>
+            </Button>
+            <Button HorizontalAlignment="Left" Margin="5,344.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Click="Button_Click_6" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="ilginizicekebilir/1.png"/>
+                </Button.Background>
+                <Button Content="Button" Height="3" Width="6"/>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="116,344.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="ilginizicekebilir/2.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="228,344.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="ilginizicekebilir/3.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="6,502.8,0,0" VerticalAlignment="Top" Width="329" Height="167" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="bütçe/e1.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="7,675.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="ilginizicekebilir/2.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="114,676.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="bütçe/e2.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="223,676.8,0,0" VerticalAlignment="Top" Width="107" Height="148" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="bütçe/e3.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="5,53,0,0" VerticalAlignment="Top" Width="328" Height="42" Click="Button_Click_7">
+                <Button.Background>
+                    <ImageBrush ImageSource="resimler/IMG_4810.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="28,168,0,0" VerticalAlignment="Top" Width="49" Height="25" Opacity="0.01" Click="Button_Click_10"/>
+
+
+            <ListBox ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,257,0,638.2" HorizontalAlignment="Left" Width="353">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="1" />
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <Image Source="kesfet/image1.png" Height="100"  Width="400"/>
+                <Image Source="kesfet/image2.png" Height="100" Width="400"/>
+                <Image Source="kesfet/image3.png" Height="100" Width="400"/>
+                <Image Source="kesfet/image4.png" Height="100" Width="400"/>
+                <Image Source="kesfet/image5.png" Height="100" Width="400"/>
+
+
+            </ListBox>
+
+           
+
+
+        </Grid>
+
+    </ScrollViewer>
+
+</wpf:FormsApplicationPage>

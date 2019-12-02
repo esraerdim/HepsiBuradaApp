@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.props" Condition="Exists('..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{632265DB-CBF0-4625-8B37-A494A6D6CA2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hepsiburada.com</RootNamespace>
+    <AssemblyName>hepsiburada.com</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\OpenTK.2.0.0\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\OpenTK.GLControl.1.1.2349.61993\lib\NET40\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.WPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\Xamarin.Forms.Platform.WPF.3.6.0.344457\lib\net45\Xamarin.Forms.Platform.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ayarlar.xaml.cs">
+      <DependentUpon>ayarlar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BildirimMerkezi.xaml.cs">
+      <DependentUpon>BildirimMerkezi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Boylebirurunbulunamadı.xaml.cs">
+      <DependentUpon>Boylebirurunbulunamadı.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EviniYenile.xaml.cs">
+      <DependentUpon>EviniYenile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeriBildirim.xaml.cs">
+      <DependentUpon>GeriBildirim.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HepsiBuradaEkran.xaml.cs">
+      <DependentUpon>HepsiBuradaEkran.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HepsiModa.xaml.cs">
+      <DependentUpon>HepsiModa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kampanya.xaml.cs">
+      <DependentUpon>Kampanya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KarşılaştırmaListem.xaml.cs">
+      <DependentUpon>KarşılaştırmaListem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menü sayfası.xaml.cs">
+      <DependentUpon>menü sayfası.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriHizmetleri.xaml.cs">
+      <DependentUpon>MusteriHizmetleri.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Oneriler.xaml.cs">
+      <DependentUpon>Oneriler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="persil1..xaml.cs">
+      <DependentUpon>persil1..xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sepetim.xaml.cs">
+      <DependentUpon>Sepetim.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SifremiUnuttum.xaml.cs">
+      <DependentUpon>SifremiUnuttum.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telefon.xaml.cs">
+      <DependentUpon>Telefon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Televizyon.xaml.cs">
+      <DependentUpon>Televizyon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UrunArama..xaml.cs">
+      <DependentUpon>UrunArama..xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UrunaramaPersil.xaml.cs">
+      <DependentUpon>UrunaramaPersil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="urunaramatelefon.xaml.cs">
+      <DependentUpon>urunaramatelefon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="urunaramatelevizyon.xaml.cs">
+      <DependentUpon>urunaramatelevizyon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Uyegiris.xaml.cs">
+      <DependentUpon>Uyegiris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uyegiriskontrol.cs" />
+    <Compile Include="xiamoindirim.xaml.cs">
+      <DependentUpon>xiamoindirim.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ayarlar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BildirimMerkezi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Boylebirurunbulunamadı.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EviniYenile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeriBildirim.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HepsiBuradaEkran.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HepsiModa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kampanya.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KarşılaştırmaListem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kategoriler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.xaml.cs">
+      <DependentUpon>Kategoriler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="menü sayfası.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MusteriHizmetleri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Oneriler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="persil1..xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sepetim.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SifremiUnuttum.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telefon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Televizyon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UrunArama..xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UrunaramaPersil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="urunaramatelefon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="urunaramatelevizyon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Uyegiris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xiamoindirim.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\hepsiburada.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\1144760.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\user-icon-vector-illustration-on-450w-785060740.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\menu-button-of-three-horizontal-lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\4-squares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\shopping-cart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\packing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\asus-x505bp-br025t-amd-dual-core-a9-3ghz-4gb-500gb-r5-m420-156__1002882799212070.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\ayakkabi-canta-modelleri-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\londa_koltuk_yen_3_10__1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\matkap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\bh3025-santana-kahve-copy-768x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\3138522075879-1-pdpxl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\Versace-Eros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\e2542135-f22a-4c52-aa23-215b2c273cf3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\DSCF2188.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\Bistro_Sets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\hanger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\depositphotos_6573334-stock-photo-businesswoman-showing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\woman-shopping-street-bags-shop-stock-today-180302-tease_192a54ebcfb697d311d3bdfc82ad1151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\multiply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\Image-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\IMG_4808.PNG" />
+    <Resource Include="resimler\IMG_4809.PNG" />
+    <Resource Include="resimler\IMG_4810.PNG" />
+    <Resource Include="resimler\IMG_4811.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\IMG_4812.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\Opera Anlık Görüntü_2019-04-22_150141_www.hepsiburada.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kesfet\image2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="kesfet\image3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="kesfet\image4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="kesfet\image5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="kesfet\image1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kesfet\left-arrow.png" />
+    <Resource Include="kesfet\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\IMG_4827.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\giris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\right-grey-arrow-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sizeönerilenler\persil1.png" />
+    <Resource Include="sizeönerilenler\persil2.png" />
+    <Resource Include="sizeönerilenler\persil3.png" />
+    <Resource Include="sizeönerilenler\persil4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\1balkon.png" />
+    <Resource Include="resimler\balkon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\bahartemiz.png" />
+    <Resource Include="resimler\game.png" />
+    <Resource Include="resimler\gurme.png" />
+    <Resource Include="resimler\piknik.png" />
+    <Resource Include="resimler\saglıklıyasam.png" />
+    <Resource Include="resimler\tadilat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ilginizicekebilir\1.png" />
+    <Resource Include="ilginizicekebilir\2.png" />
+    <Resource Include="ilginizicekebilir\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="hikayeler\IMG_4932.PNG" />
+    <Resource Include="hikayeler\IMG_4933.PNG" />
+    <Resource Include="hikayeler\IMG_4934.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bütçe\e1.png" />
+    <Resource Include="bütçe\e2.png" />
+    <Resource Include="bütçe\e3.png" />
+    <Resource Include="bütçe\e4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="hikayeler\IMG_4865.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\arama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\aaaaaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\aaaa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\bulunamadı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\telefon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\telefon1.png" />
+    <Resource Include="resimler\telefon2.png" />
+    <Resource Include="resimler\telefon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\a1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="menü\book.png" />
+    <Resource Include="menü\gift-card.png" />
+    <Resource Include="menü\heart.png" />
+    <Resource Include="menü\megaphone.png" />
+    <Resource Include="menü\notification.png" />
+    <Resource Include="menü\order.png" />
+    <Resource Include="menü\settings.png" />
+    <Resource Include="menü\shopping-cart %282%29.png" />
+    <Resource Include="menü\support.png" />
+    <Resource Include="menü\transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="menü\message-ballon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ilginizicek\imagebox1.png" />
+    <Resource Include="ilginizicek\imagebox2.PNG" />
+    <Resource Include="ilginizicek\imagebox3.PNG" />
+    <Resource Include="ilginizicek\imagebox4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\telefon4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\tele2.PNG" />
+    <Resource Include="resimler\televizyon1.png" />
+    <Resource Include="resimler\televizyon2.png" />
+    <Resource Include="resimler\televizyon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\Ekran Alıntısı.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\menü1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resimler\persil.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\source\repos\App1\App1\App1.Android\App1.Android.csproj">
+      <Project>{f29204c2-3ede-499b-a6b6-8e5508b2f19a}</Project>
+      <Name>App1.Android</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.targets" Condition="Exists('..\..\..\source\repos\App1\packages\Xamarin.Forms.3.6.0.344457\build\Xamarin.Forms.targets')" />
+</Project>

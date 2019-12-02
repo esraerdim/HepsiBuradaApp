@@ -1,0 +1,55 @@
+﻿<wpf:FormsApplicationPage  x:Class="hepsiburada.com.menü_sayfası"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:Xamarin.Forms.Platform.WPF;assembly=Xamarin.Forms.Platform.WPF" 
+        xmlns:local="clr-namespace:hepsiburada.com"
+        mc:Ignorable="d"
+        Title="menü_sayfası" Height="581.554" Width="353.131" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+
+        <Image HorizontalAlignment="Left" Height="561" Margin="-1,-9,0,0" VerticalAlignment="Top" Width="347" Source="resimler/a1.PNG" Grid.RowSpan="2">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="resimler/a1.PNG" Opacity="0.3"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button Content="Siparişlerim" HorizontalAlignment="Left" Margin="46,42,0,0" VerticalAlignment="Top" Width="290" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_2"/>
+        <Button Content="Kampanyalar" HorizontalAlignment="Left" Margin="46,78,0,0" VerticalAlignment="Top" Width="290" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_3"/>
+        <Button Content="Adreslerim" HorizontalAlignment="Left" Margin="46,114,0,0" VerticalAlignment="Top" Width="289" Height="36" Background="Black" Foreground="White" Opacity="0.50" />
+        <Button Content="Sepet" HorizontalAlignment="Left" Margin="46,150,0,0" VerticalAlignment="Top" Width="290" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_4"/>
+        <Button Content="Favori Listem" HorizontalAlignment="Left" Margin="46,186,0,0" VerticalAlignment="Top" Width="289" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_5"/>
+        <Button Content="Bildirim Merkezi" HorizontalAlignment="Left" Margin="46,222,0,0" VerticalAlignment="Top" Width="290" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_6"/>
+        <Button Content="Karşılaştırma Listem" HorizontalAlignment="Left" Margin="46,258,0,0" VerticalAlignment="Top" Width="289" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_7"/>
+        <Button Content="Hediye Çeklerim" HorizontalAlignment="Left" Margin="46,294,0,0" VerticalAlignment="Top" Width="289" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_8"/>
+        <Button Content="Müşteri Hizmetleri" HorizontalAlignment="Left" Margin="46,330,0,0" VerticalAlignment="Top" Width="289" Height="36" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_9"/>
+        <Button Content="Uygulama İçin Geri Bildirim Yapın" HorizontalAlignment="Left" Margin="46,366,0,0" VerticalAlignment="Top" Width="289" Height="41" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_10"/>
+        <Button Content="Ayarlar" HorizontalAlignment="Left" Margin="46,407,0,0" VerticalAlignment="Top" Width="290" Height="41" Background="Black" Foreground="White" Opacity="0.50" Click="Button_Click_11"/>
+        <Button Content="Giriş Yap veya üye ol" HorizontalAlignment="Left" Margin="-1,453,0,0" VerticalAlignment="Top" Width="166" Height="63" Background="Black" Foreground="White" Click="Button_Click" />
+        <Button Content="Kapat" HorizontalAlignment="Left" Margin="165,453,0,0" VerticalAlignment="Top" Width="181" Height="63" Foreground="White" Click="Button_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="10,42,0,0" VerticalAlignment="Top" Width="36" Source="menü/order.png" OpacityMask="#FF7D7D7D" />
+        <Image HorizontalAlignment="Left" Height="36" Margin="10,78,0,0" VerticalAlignment="Top" Width="36" Source="menü/megaphone.png"/>
+        <Image HorizontalAlignment="Right" Height="36" Margin="0,114,300.4,0" VerticalAlignment="Top" Width="36" Source="menü/book.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="10,150,0,0" VerticalAlignment="Top" Width="36" Source="menü/shopping-cart (2).png"/>
+        <Image HorizontalAlignment="Left" Height="31" Margin="10,191,0,0" VerticalAlignment="Top" Width="36" Source="menü/heart.png"/>
+        <Image HorizontalAlignment="Right" Height="36" Margin="0,222,300.4,0" VerticalAlignment="Top" Width="36" Source="menü/notification.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="10,258,0,0" VerticalAlignment="Top" Width="36" Source="menü/transfer.png"/>
+        <Image HorizontalAlignment="Left" Height="31" Margin="10,299,0,0" VerticalAlignment="Top" Width="36" Source="menü/gift-card.png"/>
+        <Image HorizontalAlignment="Left" Height="31" Margin="10,335,0,0" VerticalAlignment="Top" Width="31" Source="menü/support.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="10,371,0,0" VerticalAlignment="Top" Width="36" Source="menü/message-ballon.png"/>
+        <Image HorizontalAlignment="Left" Height="41" Margin="10,407,0,0" VerticalAlignment="Top" Width="36" Source="menü/settings.png"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="114,1,0,0" VerticalAlignment="Top" Width="130" Source="resimler/hepsiburada.com.png" RenderTransformOrigin="0.715,0.063">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="resimler/hepsiburada.com.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,0,0,525" Width="37" Click="Button_Click" RenderTransformOrigin="-0.141,0.5" Height="26" VerticalAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush ImageSource="resimler/user.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,-4,0,0" VerticalAlignment="Top" Width="46" Height="41" Opacity="0.1" Click="Button_Click_12"/>
+
+
+    </Grid>
+</wpf:FormsApplicationPage>
